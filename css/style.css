@@ -1,0 +1,209 @@
+header {
+  background: #000000;
+  top: 0;
+  height: 96px;
+  position: fixed; /*Fixa no topo*/
+  width: 100%;
+}
+.menu {
+  position: absolute;
+  right: 20px;
+}
+.marca {
+  float: left;
+  margin-left: 350px;
+  margin-top: 37px;
+  font-size: 34px;
+}
+
+.marca a {
+  color: #fff;
+}
+.menu ul li {
+  text-decoration: none;
+  display: inline-block;
+  padding-right: 15px;
+  margin-left: 20px;
+  margin-top: 45px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* cor do botão */
+.btn {
+  color: #fff;
+}
+
+/* item ativo e quando passa o mouse em cima */
+.active,
+.btn:hover {
+  color: #36ad09;
+}
+
+/*INTRODUÇÃO*/
+.introducao {
+  background: #000000;
+  height: 776px;
+  width: 100%;
+}
+
+.introducao h1,
+h3 {
+  color: #fff;
+  padding-top: 191px;
+  text-align: right;
+  margin-right: 40px;
+}
+
+.introducao h1 {
+  font-size: 64px;
+}
+.introducao h3 {
+  font-size: 24px;
+  margin-right: 40px;
+}
+.ponto {
+  color: #36ad09;
+}
+.introducao img {
+  margin: 186px 0 0 220px;
+  float: left;
+}
+
+/*EXPERIÊNCIA*/
+.card {
+  width: 436px;
+  height: 328px;
+  border: 1px solid #000000;
+}
+
+.titulo {
+  font-size: 64px;
+  margin: 120px 0 40px 220px;
+}
+
+.card {
+  margin: 0 0 120px 220px;
+  background: #ededed;
+  box-shadow: 5px 5px 5px 0 #000000;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.titulo-card {
+  border: 1px solid #000000;
+  height: 84px;
+  background: #36ad09;
+  border-radius: 10px 10px 0 0;
+}
+.titulo-card h2 {
+  color: #fff;
+  font-size: 36px;
+  padding: 16px 238px 14px 20px;
+}
+
+.descricao,
+.linguagens {
+  margin: 20px 0 20px 20px;
+}
+.empresa-ano {
+  color: #000000;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 20px;
+}
+
+.descricao {
+  color: #595959;
+}
+
+.linguagens {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/*HABILIDADES*/
+.habilidades {
+  background: #000000;
+}
+
+.titulo-habilidades {
+  color: #fff;
+  font-size: 64px;
+  margin: 120px 0 40px 220px;
+  padding-top: 120px;
+}
+
+.habilidades .card,
+.card-secundario {
+  display: inline-table;
+  padding-bottom: 20px;
+}
+
+.lista li {
+  color: #000000;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 20px 0 0 20px;
+}
+
+.card-secundario {
+  margin: 0 0 120px 60px;
+  background: #ededed;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 0 #000000;
+}
+
+/*FORMAÇÕES*/
+.formacoes .card-secundario {
+  display: inline-block;
+}
+
+/*CONTATO*/
+.contato {
+  background: #000;
+}
+
+.contato-lista {
+  color: #fff;
+  margin-left: 220px;
+  font-size: 32px;
+}
+
+.contato-lista div {
+  display: inline-block;
+}
+
+.contato-lista div li {
+  padding-bottom: 20px;
+}
+.redes-sociais {
+  margin-bottom: 60px;
+}
+.redes-sociais p {
+  padding: 20px 0 10px 0;
+  font-size: 48px;
+}
+.redes-sociais a {
+  padding: 20px 20px 20px 0;
+}
+
+/*FOOTER*/
+.rodape {
+  width: 100%;
+  padding: 20px 0;
+  background: #36ad09;
+}
+.rodape p {
+  margin-left: 220px;
+}
+
+/*MOBILE*/
+/*@media screen and (max-width: 480px) {
+
+}*/
